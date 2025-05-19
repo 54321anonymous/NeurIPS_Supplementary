@@ -1,6 +1,5 @@
 import subprocess
 import sys
-sys.path.append("/home/jovyan/workspace/NoteVLM/src/zeroshot")
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import soundfile as sf
